@@ -1,14 +1,15 @@
 ### 美团外卖开放平台PHP SDK
 
-美团外卖开放平台PHP SDK，支持`零售综合`、`医疗综合`以及`团好货`三大板块。
+1. 美团外卖开放平台PHP SDK，支持`零售综合`、`医疗综合`以及`团好货`三大板块。
+2. 新增ISV安全认证 -- 服务商获取 access_token （单元测试对应：TokenTest.php）
 
-# 安装
+### 安装
 
 ```shell script
 composer require abbotton/meituan-takeaway
 ```
 
-# 使用
+### 使用
 ```php
 use Abbotton\MeituanTakeaway\Application;
 
@@ -31,3 +32,17 @@ print_r(json_decode($orderDetail, true));
 $app->goods->async()->create([]);
 ......
 ```
+
+### 单元测试
+
+1. 首先安装依赖 `composer install`。ps: 要使用单元测试，要求 php >= 7.1
+
+2. 执行以下单元测试命令时，请先确认已把 TestCase.php 文件中的 `$config` 配置修改好了 及 TokenTest.php 中相关配置
+```shell script
+# 执行所有的单元测试
+vendor/bin/phpunit
+
+# 指定执行某个单元方法
+vendor/bin/phpunit --filter=test_get_token_and_refresh_token
+```
+

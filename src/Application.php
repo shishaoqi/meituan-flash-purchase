@@ -14,6 +14,7 @@ use Abbotton\MeituanTakeaway\Request\Poi;
 use Abbotton\MeituanTakeaway\Request\Retail;
 use Abbotton\MeituanTakeaway\Request\Shipping;
 use Abbotton\MeituanTakeaway\Request\Task;
+use Abbotton\MeituanTakeaway\Request\Token;
 use Exception;
 use GuzzleHttp\Client;
 
@@ -32,6 +33,7 @@ use GuzzleHttp\Client;
  * @property Goods $goods
  * @property Delivery $delivery
  * @property Task $task
+ * @property Token $token
  */
 class Application
 {

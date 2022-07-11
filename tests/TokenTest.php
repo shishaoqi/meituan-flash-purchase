@@ -1,10 +1,10 @@
 <?php
 
 
-namespace Abbotton\MeituanTakeaway\Tests;
+namespace Shishaoqi\MeituanFlashPurchase\Tests;
 
 
-use Abbotton\MeituanTakeaway\Application;
+use Shishaoqi\MeituanFlashPurchase\Application;
 
 class TokenTest extends TestCase
 {

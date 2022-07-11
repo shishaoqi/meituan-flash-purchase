@@ -1,6 +1,6 @@
 {
-    "name": "abbotton/meituan-takeaway",
-    "description": "美团外卖开放平台PHP SDK",
+    "name": "shishaoqi/meituan-flash-purchase",
+    "description": "美团外卖开放平台PHP SDK，更准确的说是美团闪购 SDK",
     "type": "library",
     "require": {
         "php": ">=5.6",
@@ -12,19 +12,19 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Abbotton",
-            "email": "uctoo@foxmail.com"
+            "name": "shishaoqi",
+            "email": "shishaoqi0928@gmail.com"
         }
     ],
     "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
-            "Abbotton\\MeituanTakeaway\\": "src"
+            "Shishaoqi\\MeituanFlashPurchase\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Abbotton\\MeituanTakeaway\\Tests\\": "tests"
+            "Shishaoqi\\MeituanFlashPurchase\\Tests\\": "tests"
         }
     },
     "scripts": {

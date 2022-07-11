@@ -1,8 +1,8 @@
 <?php
 
-namespace Abbotton\MeituanTakeaway\Tests;
+namespace Shishaoqi\MeituanFlashPurchase\Tests;
 
-use Abbotton\MeituanTakeaway\Config;
+use Shishaoqi\MeituanFlashPurchase\Config;
 
 class ConfigTest extends TestCase
 {

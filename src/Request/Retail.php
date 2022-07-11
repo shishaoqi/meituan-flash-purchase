@@ -1,6 +1,6 @@
 <?php
 
-namespace Abbotton\MeituanTakeaway\Request;
+namespace Shishaoqi\MeituanFlashPurchase\Request;
 
 class Retail extends BaseRequest
 {

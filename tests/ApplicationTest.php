@@ -1,9 +1,9 @@
 <?php
 
-namespace Abbotton\MeituanTakeaway\Tests;
+namespace Shishaoqi\MeituanFlashPurchase\Tests;
 
-use Abbotton\MeituanTakeaway\Application;
-use Abbotton\MeituanTakeaway\Config;
+use Shishaoqi\MeituanFlashPurchase\Application;
+use Shishaoqi\MeituanFlashPurchase\Config;
 
 class ApplicationTest extends TestCase
 {

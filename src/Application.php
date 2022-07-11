@@ -1,20 +1,20 @@
 <?php
 
-namespace Abbotton\MeituanTakeaway;
+namespace Shishaoqi\MeituanFlashPurchase;
 
-use Abbotton\MeituanTakeaway\Request\Act;
-use Abbotton\MeituanTakeaway\Request\Comment;
-use Abbotton\MeituanTakeaway\Request\Delivery;
-use Abbotton\MeituanTakeaway\Request\Goods;
-use Abbotton\MeituanTakeaway\Request\Im;
-use Abbotton\MeituanTakeaway\Request\Image;
-use Abbotton\MeituanTakeaway\Request\Medicine;
-use Abbotton\MeituanTakeaway\Request\Order;
-use Abbotton\MeituanTakeaway\Request\Poi;
-use Abbotton\MeituanTakeaway\Request\Retail;
-use Abbotton\MeituanTakeaway\Request\Shipping;
-use Abbotton\MeituanTakeaway\Request\Task;
-use Abbotton\MeituanTakeaway\Request\Token;
+use Shishaoqi\MeituanFlashPurchase\Request\Act;
+use Shishaoqi\MeituanFlashPurchase\Request\Comment;
+use Shishaoqi\MeituanFlashPurchase\Request\Delivery;
+use Shishaoqi\MeituanFlashPurchase\Request\Goods;
+use Shishaoqi\MeituanFlashPurchase\Request\Im;
+use Shishaoqi\MeituanFlashPurchase\Request\Image;
+use Shishaoqi\MeituanFlashPurchase\Request\Medicine;
+use Shishaoqi\MeituanFlashPurchase\Request\Order;
+use Shishaoqi\MeituanFlashPurchase\Request\Poi;
+use Shishaoqi\MeituanFlashPurchase\Request\Retail;
+use Shishaoqi\MeituanFlashPurchase\Request\Shipping;
+use Shishaoqi\MeituanFlashPurchase\Request\Task;
+use Shishaoqi\MeituanFlashPurchase\Request\Token;
 use Exception;
 use GuzzleHttp\Client;
 
@@ -56,7 +56,7 @@ class Application
     {
         if (! isset($this->$name)) {
             $class_name = ucfirst($name);
-            $application = "\\Abbotton\\MeituanTakeaway\\Request\\{$class_name}";
+            $application = "\\Shishaoqi\\MeituanFlashPurchase\\Request\\{$class_name}";
             if (! class_exists($application)) {
                 throw new Exception($class_name.'不存在');
             }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Abbotton\MeituanTakeaway;
+namespace Shishaoqi\MeituanFlashPurchase;
 
 use Exception;
 

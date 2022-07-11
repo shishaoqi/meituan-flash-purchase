@@ -6,12 +6,12 @@
 ### 安装
 
 ```shell script
-composer require abbotton/meituan-takeaway
+composer require shishaoqi/meituan-takeaway
 ```
 
 ### 使用
 ```php
-use Abbotton\MeituanTakeaway\Application;
+use Shishaoqi\MeituanFlashPurchase\Application;
 
 ......
 

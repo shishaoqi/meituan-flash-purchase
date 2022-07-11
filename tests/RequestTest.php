@@ -1,6 +1,6 @@
 <?php
 
-namespace Abbotton\MeituanTakeaway\Tests;
+namespace Shishaoqi\MeituanFlashPurchase\Tests;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Handler\MockHandler;
@@ -22,7 +22,7 @@ class RequestTest extends TestCase
             $reflectionClass = new \ReflectionClass($app->$class);
             $methods = $reflectionClass->getMethods();
             foreach ($methods as &$method) {
-                if ($method->class == 'Abbotton\\MeituanTakeaway\\Request\\'.ucfirst($class)) {
+                if ($method->class == 'Shishaoqi\\MeituanFlashPurchase\\Request\\'.ucfirst($class)) {
                     $response = new Response(200, [], $responseJson);
                     $mock->append($response);
                     $methodName = $method->getName();

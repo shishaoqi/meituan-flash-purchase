@@ -1,8 +1,8 @@
 <?php
 
-namespace Abbotton\MeituanTakeaway\Request;
+namespace Shishaoqi\MeituanFlashPurchase\Request;
 
-use Abbotton\MeituanTakeaway\Config;
+use Shishaoqi\MeituanFlashPurchase\Config;
 
 class BaseRequest
 {

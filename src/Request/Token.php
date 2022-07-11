@@ -1,11 +1,11 @@
 <?php
 
 
-namespace Abbotton\MeituanTakeaway\Request;
+namespace Shishaoqi\MeituanFlashPurchase\Request;
 
 /**
  * Class Token
- * @package Abbotton\MeituanTakeaway\Request
+ * @package Shishaoqi\MeituanFlashPurchase\Request
  * 美团文档：https://open-shangou.meituan.com/home/guide/market/10686
  */
 class Token extends BaseRequest

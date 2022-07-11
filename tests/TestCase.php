@@ -1,8 +1,8 @@
 <?php
 
-namespace Abbotton\MeituanTakeaway\Tests;
+namespace Shishaoqi\MeituanFlashPurchase\Tests;
 
-use Abbotton\MeituanTakeaway\Application;
+use Shishaoqi\MeituanFlashPurchase\Application;
 use PHPUnit\Framework\TestCase as BaseTestCase;
 
 class TestCase extends BaseTestCase

@@ -6,7 +6,7 @@
 ### 安装
 
 ```shell script
-composer require shishaoqi/meituan-takeaway
+composer require shishaoqi/meituan-flash-purchase
 ```
 
 ### 使用
